@@ -1,10 +1,24 @@
-/* 
-root var
-*/
+/* root vars */
+:root {
+    --primary-1: rgb(85,108,62);
+    --primary-2: rgb(125,151,100);
+    --primary-3: rgb(157,181,134);
+    --primary-4: rgb(213,226,200);
+    --grey-1: rgb(50, 50, 50);
+    --grey-2: rgb(100, 100, 100);
+    --grey-3: rgb(175, 175, 175);
+    --gray-4: rgb(210,210,210);
+    --white: rgb(255,255,255);
+    --spacing: .1rem;
+    --ff-primary: monoaspace;
+}
+/* darkmode css */
+.darkmode:root {
 
-/* 
-global values
- */
+}
+/* end darkmode css */
+ 
+/* global values */
  html {
      width: 100vw;
      height: 100vh;
