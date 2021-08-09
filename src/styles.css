@@ -56,7 +56,7 @@
  }
 
  main {
-     /* background-color: rgba(226, 255, 254, 0.5); */
+     background-color: rgba(226, 255, 254, 0.5);
      min-height: 90vh;
  }
 
@@ -99,7 +99,7 @@
  }
 
  .input-container {
-     /* background-color: rgba(192, 192, 192, 0.459); */
+     background-color: rgba(192, 192, 192, 0.459);
      min-height: 10vh;
      width: auto;
      display: flex;
@@ -162,4 +162,16 @@
  .footer-txt {
     font-family: var(--ff-primary-2);
     font-size: var(--font-size-small);
+ }
+
+ .list-container {
+    background-color: rgba(192, 168, 168, 0.459);
+    min-height: 10vh;
+    max-height: 70vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    padding: 2vh;
  }
