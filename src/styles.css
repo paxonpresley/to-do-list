@@ -14,6 +14,7 @@
     --gray-5: rgb(210,210,210);
     --white: rgb(255,255,255);
     --spacing: .1rem;
+    --spacing-2: .05rem;
     --ff-primary-1: monospace ;
     --ff-primary-2: Courier New ;
     --ff-primary-3: Courier ;
@@ -173,5 +174,27 @@
     justify-content: center;
     align-items: center;
     overflow: scroll;
-    padding: 2vh;
+    padding-top: 2rem;
+ }
+
+ .list-item {
+     padding-bottom: 2rem;
+     display: flex;
+    justify-content: left;
+    flex-direction: row;
+ }
+
+ .list-item p {
+     font-size: var(--font-size-small);
+ }
+
+ .list-item .btn {
+     padding: .05rem;
+     width: 3rem;
+     letter-spacing: var(--spacing-2);
+     border-radius: .4rem;
+ }
+
+ .list-item .delete-btn {
+     margin-left: .5rem;
  }
