@@ -1,5 +1,5 @@
 // preloader
-const preloaderContainer = document.querySelector('.preloader-container')
-window.onload(function(){
-    preloaderContainer.style.display = "none";
-});
+window.onload = function () {
+    document.querySelector('.preloader').style.display = "none";
+};
+
