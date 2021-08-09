@@ -110,6 +110,7 @@
  .input-box {
      height: 2rem;
      width: auto;
+     box-shadow: .05rem .05rem .5rem var(--grey-3);
  }
 
   .input-text {
@@ -117,20 +118,24 @@
      font-size: var(--font-size-small);
      font-family: var(--ff-primary-2);
      background-color: var(--primary-5);
+     border-color: var(--primary-1);
      border-radius: .5rem 0rem 0rem .5rem;
-     border-width: .11rem;
+     border-width: .13rem;
      border-style: solid;
-     padding-left: .1rem;
-     content:attr('text' = add item..);
+     padding-left: .3rem;
  }
 
  .input-text:hover {
      background-color: var(--primary-7);
+     border-color: var(--primary-3);
  }
 
- .input-text:focus-visible {
+ .input-text:focus {
      background-color: var(--primary-6);
-     border-color: var(--primary-3);
+     border-color: var(--primary-1);
+     outline-color: var(--primary-2);
+     outline-width: .13rem;
+     outline: var(--radius);
  }
 
  .input-btn {
@@ -140,7 +145,7 @@
     font-family: var(--ff-primary-3);
     font-size: var(--font-size-small);
     background-color: var(--primary-5);
-    border-color: var(--grey-3);
+    border-color: var(--primary-1);
     border-radius: 0rem .5rem .5rem 0rem;
     border-width: .13rem;
     border-style: solid;
@@ -149,9 +154,9 @@
 
  .input-btn:hover {
      cursor: pointer;
-     background-color: var(--primary-4);
-     border-color: var(--gray-3);
-     border-width: .1rem;
+     background-color: var(--primary-7);
+     border-color: var(--primary-3);
+     border-width: .13rem;
  }
 
  .footer-txt {
