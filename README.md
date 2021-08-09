@@ -3,4 +3,4 @@
 ## goal: make a to do list that can add infinate amounts of todos that can be checked off then deleted
 
 steps as I go:
-1. setup a static UI
+1. setup a static UI 
