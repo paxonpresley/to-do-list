@@ -4,3 +4,4 @@
 
 steps as I go:
 1. setup a static UI 
+2. make the list item btn functionality (check off item / delete item)
