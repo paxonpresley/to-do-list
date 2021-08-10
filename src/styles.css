@@ -57,7 +57,7 @@
  }
 
  main {
-     background-color: rgba(226, 255, 254, 0.5);
+     /* background-color: rgba(226, 255, 254, 0.5); */
      min-height: 90vh;
  }
 
@@ -100,7 +100,7 @@
  }
 
  .input-container {
-     background-color: rgba(192, 192, 192, 0.459);
+     /* background-color: rgba(192, 192, 192, 0.459); */
      min-height: 10vh;
      width: auto;
      display: flex;
@@ -166,7 +166,7 @@
  }
 
  .list-container {
-    background-color: rgba(192, 168, 168, 0.459);
+    /* background-color: rgba(192, 168, 168, 0.459); */
     min-height: 10vh;
     max-height: 70vh;
     width: auto;
@@ -189,12 +189,16 @@
      font-size: var(--font-size-normal);
  }
 
+ .list-item img {
+     width: 1.3rem;
+ }
+
  .list-item .btn {
-     padding: .05rem;
+     padding: 0;
      width: 2rem;
      height: 2rem;
-     letter-spacing: var(--spacing-2);
      border-radius: .4rem;
+     background-color: var(--white);
  }
 
  .list-item .delete-btn {
