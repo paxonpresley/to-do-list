@@ -5,6 +5,6 @@ window.onload = function () {
 // date
 const date = document.getElementById('date');
 date.innerHTML = new Date().getFullYear();
-// defaoult text
-let inputItem = document.getElementById('inputItem');
-const dumby = inputItem.getAttribute('value')
+
+// checked btn
+const doneBtns = document.querySelectorAll('done-btn');

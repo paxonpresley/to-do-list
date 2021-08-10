@@ -182,7 +182,7 @@
      /* opacity: 90%; */
  }
 
- .footer-txt {
+ footer .footer-txt {
     font-family: var(--ff-primary-2);
     font-size: var(--font-size-small);
  }
@@ -238,12 +238,22 @@
      transition-duration: .1s;
  }
 
- .list-item .delete-btn {
-     margin-left: .25rem;
+ /* after being checked styles */
+ .checked {
+     text-decoration: line-through;
+     opacity: 50%;
  }
+ .checked .done-btn {
+     background-color: red;
+ }
+ /* end of after being checked styles */
 
  .list-item .done-btn {
-     margin-right: .25rem;
+    margin-right: .25rem;
+}
+
+ .list-item .delete-btn {
+     margin-left: .25rem;
  }
 
  .list-item img {
