@@ -243,9 +243,6 @@
      text-decoration: line-through;
      opacity: 50%;
  }
- .checked .done-btn {
-     background-color: red;
- }
  /* end of after being checked styles */
 
  .list-item .done-btn {
