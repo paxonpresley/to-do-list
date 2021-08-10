@@ -9,10 +9,11 @@
     --primary-7: rgb(220, 236, 215);
     --grey-1: rgb(50, 50, 50);
     --grey-2: rgb(100, 100, 100);
-    --grey-3: rgb(167, 167, 167);
+    --grey-3: rgb(236, 241, 234);
     --gray-4: rgb(184, 184, 184);
     --gray-5: rgb(210,210,210);
-    --white: rgb(255,255,255);
+    --gray-6: rgb(172, 172, 172);
+    --white: rgb(219, 219, 219);
     --spacing: .1rem;
     --spacing-2: .05rem;
     --ff-primary-1: monospace ;
@@ -59,7 +60,7 @@
  main {
      /* background-color: rgba(226, 255, 254, 0.5); */
      min-height: 90vh;
- }
+}
 
  footer {
      /* background-color: rgb(161, 185, 128, .50); */
@@ -166,7 +167,7 @@
  }
 
  .list-container {
-    /* background-color: rgba(192, 168, 168, 0.459); */
+    background-color: rgba(192, 168, 168, 0.459);
     min-height: 10vh;
     max-height: 70vh;
     width: auto;
@@ -187,10 +188,7 @@
 
  .list-item p {
      font-size: var(--font-size-normal);
- }
-
- .list-item img {
-     width: 1.3rem;
+     margin-bottom: .5rem;
  }
 
  .list-item .btn {
@@ -198,7 +196,7 @@
      width: 2rem;
      height: 2rem;
      border-radius: .4rem;
-     background-color: var(--white);
+     background-color: var(--primary-6);
  }
 
  .list-item .delete-btn {
@@ -208,3 +206,7 @@
  .list-item .done-btn {
      margin-left: .5rem;
  }
+
+ .list-item img {
+    width: 1.3rem;
+}
