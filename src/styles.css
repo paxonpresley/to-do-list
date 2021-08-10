@@ -12,7 +12,7 @@
     --grey-3: rgb(236, 241, 234);
     --gray-4: rgb(184, 184, 184);
     --gray-5: rgb(210,210,210);
-    --gray-6: rgb(172, 172, 172);
+    --gray-6: rgb(235, 235, 235);
     --white: rgb(219, 219, 219);
     --spacing: .1rem;
     --spacing-2: .05rem;
@@ -167,15 +167,19 @@
  }
 
  .list-container {
-    background-color: rgba(192, 168, 168, 0.459);
+    background-color: var(--gray-6);
     min-height: 10vh;
     max-height: 70vh;
-    width: auto;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: scroll;
-    padding-top: 2rem;
+    padding: 2rem 2rem 0rem 2rem;
+    border-radius: 2rem;
+    
  }
 
  .list-item {
@@ -196,15 +200,22 @@
      width: 2rem;
      height: 2rem;
      border-radius: .4rem;
-     background-color: var(--primary-6);
+     background-color: var(--primary-5);
+     border-color: var(--primary-5);
+ }
+
+ .list-item .btn:hover {
+    cursor: pointer;
+    background-color: var(--primary-7);
+    border-color: var(--primary-3);
  }
 
  .list-item .delete-btn {
-     margin-left: .5rem;
+     margin-left: .25rem;
  }
 
  .list-item .done-btn {
-     margin-left: .5rem;
+     margin-right: .25rem;
  }
 
  .list-item img {
