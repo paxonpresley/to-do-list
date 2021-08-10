@@ -181,20 +181,26 @@
      padding-bottom: 2rem;
      display: flex;
     justify-content: left;
+    align-items: center;
     flex-direction: row;
  }
 
  .list-item p {
-     font-size: var(--font-size-small);
+     font-size: var(--font-size-normal);
  }
 
  .list-item .btn {
      padding: .05rem;
-     width: 3rem;
+     width: 2rem;
+     height: 2rem;
      letter-spacing: var(--spacing-2);
      border-radius: .4rem;
  }
 
  .list-item .delete-btn {
+     margin-left: .5rem;
+ }
+
+ .list-item .done-btn {
      margin-left: .5rem;
  }
