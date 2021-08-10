@@ -55,6 +55,7 @@
     align-items: center;
     height: auto;
     margin: 1rem 0rem;
+    flex-direction: column;
  }
 
  main {
@@ -94,11 +95,20 @@
      border-radius: 2rem;
  }
 
- .title {
+ header .title {
     font-family: var(--ff-primary-1);
     font-size: var(--font-size-big);
     letter-spacing: .3rem;
     color: var(--primary-1);
+    margin-bottom: 2rem;
+ }
+
+ header .underline {
+     background-color: var(--primary-1);
+     opacity: 70%;
+     height: .03rem;
+     width: 80vw;
+     max-width: 50rem;
  }
 
  .input-container {
